@@ -6,8 +6,9 @@ import java.io.IOException;
 
 public class CopyFileContent {
     public static void main(String[] args) {
-        String sourceFile = "source.txt";
-        String destinationFile = "destination.txt";
+        // File paths (relative to project folder)
+        String sourceFile = "src/file_io/source.txt";
+        String destinationFile = "src/file_io/destination.txt";
 
         try (FileReader reader = new FileReader(sourceFile);
              FileWriter writer = new FileWriter(destinationFile)) {
