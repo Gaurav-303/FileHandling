@@ -1,0 +1,5 @@
+Hello, this is a test file.
+We are copying the contents of this file
+to another file using BufferedReader and BufferedWriter.
+
+This demonstrates file handling in Java.
