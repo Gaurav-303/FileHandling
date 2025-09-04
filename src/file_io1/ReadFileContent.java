@@ -1,4 +1,4 @@
-package file_io;
+package file_io1;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class ReadFileContent {
     public static void main(String[] args) {
-        String inputFile = "input.txt";
+        String inputFile = "src/text_file1/input.txt";
 
         try (BufferedReader reader = new BufferedReader(new FileReader(inputFile))) {
             String line;

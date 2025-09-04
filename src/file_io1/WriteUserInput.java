@@ -1,4 +1,4 @@
-package file_io;
+package file_io1;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class WriteUserInput {
     public static void main(String[] args) {
-        String outputFile = "user_input.txt";
+        String outputFile = "src/text_file1/user_input.txt";
 
         try (Scanner scanner = new Scanner(System.in);
              FileWriter writer = new FileWriter(outputFile)) {

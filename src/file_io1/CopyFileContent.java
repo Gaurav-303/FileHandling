@@ -1,4 +1,4 @@
-package file_io;
+package file_io1;
 
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class CopyFileContent {
     public static void main(String[] args) {
-        // File paths (relative to project folder)
+
         String sourceFile = "src/file_io/source.txt";
         String destinationFile = "src/file_io/destination.txt";
 
